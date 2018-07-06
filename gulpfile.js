@@ -54,7 +54,7 @@ gulp.task('clean', function() {
   .pipe(clean());
 });
 
-//watch all sass folder for any changes
+//watch sass folder for any changes
 gulp.task('watchSass', function() {
   gulp.watch([options.src + '/sass/**'], ['styles']);
 });
